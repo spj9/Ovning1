@@ -16,6 +16,7 @@ namespace Ovning1
                 name = inputName;
                 salary = inputSalary;   
             }
+        // Visa anställdes namn och lön
         public void DisplayRegisteredEmployee()
         {
             Console.WriteLine("Namn: " + name + "\t Lön: " + salary);
